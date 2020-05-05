@@ -75,10 +75,23 @@ https://codepen.io/pmiller1208/pen/BaoJqNw?editors=1100
         using the comman ls.
     33. How do I remove a file via the command line? Why do I have to be careful with this?
         using the command rm. You have to be careful becuae you won't get a prompt asking if you are sure and it is permanent. 
-    34. Why should I use version control? 
+    34. Why should I use version control?
+        You should use version control becuae it allows to to access the full history of a document whether or not you close it and open it at a later time. 
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
-    37. Walk me through Lambda's git flow. 
+        you should commit every 20 mintes or when you have made something significant working.
+    36. What is the command we would use to push our repo up to github?
+        git push 
+    37. Walk me through Lambda's git flow.
+        1. Fork the assignment/github repo. Make sure your name is in front of the repo name.
+        2. Add collaborator
+        3. clone using https link
+        4. Open git, open directory where you want to clone your repo.
+        5. using the cd command, chane directory into the new repo.
+        6use the command git checkout -b 'firstname-lastname' to create your own branch.
+        7. save periodaclly using the following:
+            - git add .
+            - git commit -m 'comment'
+            - git push -u origin branch-name 
 
 Stretch Questions
 
