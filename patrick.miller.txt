@@ -37,14 +37,31 @@ https://codepen.io/pmiller1208/pen/BaoJqNw?editors=1100
     18. How to we select an element? Example - every h2 on the page
         you can select an element by either using the tag 'h2' or to select every h2 element you would then do '* h2'.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        An id selector only manipulates one element while a class selector manipulates multiple elements. For example:
+        <h1 id="title">Title</h1>
+            <div>
+                <p class="class">This is a paragrpagh</p>
+                <p class="class">This is another paragraph</p>
+                <h2>Title</h2>
+                <p class="class">This is a third paragraph</p>
+            </div>
     20. How do we select classes in CSS?
+        We select classes in CSS using the '.' - period.
     21. How do we select a p element with a single class of “human””?
+        you can type in '.human p'
     22. What is a parent child selector? When would this be useful? 
     23. How do you select all links within a div with the class of sidebar?
+        .sidebar div
     24. What is a pseudo selector?
     25. What do we use the change the spacing between lines?
+        line-spacing
     26. What do we use to change the spacing between letters?
+        letter-spacing
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        text-transform: Capitalize;
+        text-transform: lowercase;
+        text-transform: Uppercase;
+
     28. How do I add a 1px border around my div that is dotted and black?
     29. How do I select everything on the page?
         Using the universal selector '*' 
