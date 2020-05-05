@@ -92,11 +92,17 @@ https://codepen.io/pmiller1208/pen/BaoJqNw?editors=1100
             - git add .
             - git commit -m 'comment'
             - git push -u origin branch-name 
+        8. open a pull request and then hit submit.
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        A block element always starts on a new line and takes up as much space available. An inline element does not start on a new line and only takes up as much space as necessary.
+    2. What happens when an element is positioned absolutely?
+        It is positioned depending on the properties from the edges of the containing block. 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?
+        use max-width and set the margin to auto.
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        3 elements block by default: <p>, <div>, <h1-h6>. 2 elements inline by default: <a>, <span>, <img>. 1 element inline block by default: display: inline block in CSS.
     5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them?
+    The box model refers to the box that surrounds all the elements in html. All elements will respect the with if we set the width to a certain amount.
