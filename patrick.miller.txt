@@ -22,13 +22,20 @@ https://codepen.io/pmiller1208/pen/BaoJqNw?editors=1100
         A clas is a selector used to change more than one element 
     11. What elements can I add a class to?
         any html elements. 
-    12. How many times can I use the same class on a page? As many times as you want.
+    12. How many times can I use the same class on a page? 
+        As many times as you want.
     13. How do I get my link to open in a new tab?
-    14. What is the alt attribute in the image tag used for? 
+        target="_blank"
+    14. What is the alt attribute in the image tag used for?
+        for providing information if the image is not being displayed. 
     15. How do I reference an id?
+        you reference an id using '#'
     16. What is the difference between a section and a div
-    17. What is CSS used for? 
+        the <section> tag defines sections in a document while <div> is mostly used for a container
+    17. What is CSS used for?
+        CSS is used to 'decorate' your html elements. It styles the html elements. 
     18. How to we select an element? Example - every h2 on the page
+        you can select an element by either using the tag 'h2' or to select every h2 element you would then do '* h2'.
     19. What is the difference between a class and an id? - Give me an example of when I might use each one
     20. How do we select classes in CSS?
     21. How do we select a p element with a single class of “human””?
@@ -39,7 +46,8 @@ https://codepen.io/pmiller1208/pen/BaoJqNw?editors=1100
     26. What do we use to change the spacing between letters?
     27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
     28. How do I add a 1px border around my div that is dotted and black?
-    29. How do I select everything on the page? 
+    29. How do I select everything on the page?
+        Using the universal selector '*' 
     30. How do I write a comment in CSS?
     31. How do I find out what file I am in, when I am using the command line? 
     32. Using the command line - how do I see a list of files/folders in my current folder?
